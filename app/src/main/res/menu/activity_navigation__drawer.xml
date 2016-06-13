@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <item
+            android:id="@+id/dash_board_nav"
+            android:icon="@drawable/home_navigation"
+            android:title="DashBoard"
+            />
+
+
+        <item
+            android:id="@+id/product_service_nav"
+            android:icon="@drawable/product_services_navigation"
+            android:title="Product &amp; Services" />
+
+        <item
+            android:id="@+id/about_us_nav"
+            android:icon="@drawable/aboutus_navigation"
+            android:title="About Us" />
+
+    <item
+        android:id="@+id/logout_nav"
+        android:icon="@drawable/aboutus_navigation"
+        android:title="Logout" />
+
+
+</menu>

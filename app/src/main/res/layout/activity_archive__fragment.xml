@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorwhite"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:weightSum="6"
+            >
+            <ImageView
+                android:layout_width="@dimen/zero_dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:id="@+id/back_button"
+                android:src="@drawable/back"/>
+            <TextView
+                android:layout_width="@dimen/zero_dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5.2"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:text="Filter"
+                android:textColor="@color/colorwhite"
+                android:textSize="@dimen/text_20sp" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:orientation="vertical"
+            android:padding="@dimen/margin_20">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/archive_edittext_style"
+                android:orientation="horizontal"
+                android:padding="@dimen/margin_10"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/text_archive_cal"
+                    android:layout_width="@dimen/zero_dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight=".4"
+                    android:paddingLeft="@dimen/margin_10"
+                    android:text="From"
+                    android:textColor="@color/red" />
+
+
+                <EditText
+                    android:id="@+id/from_date"
+                    android:drawableRight="@drawable/cal_arch"
+                    android:layout_width="@dimen/zero_dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight=".6"
+                    android:textColor="@color/colordarkgray"
+                    android:background="@null"
+                    android:focusable="false"
+                    android:clickable="true"
+                    android:hint="Date" />
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="@dimen/margin_20"
+                android:background="@drawable/archive_edittext_style"
+                android:orientation="horizontal"
+                android:padding="@dimen/margin_10"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/text_arch_cal"
+                    android:layout_width="@dimen/zero_dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight=".4"
+                    android:paddingLeft="@dimen/margin_10"
+                    android:text="To"
+                    android:textColor="@color/red" />
+
+
+                <EditText
+                    android:drawableRight="@drawable/cal_arch"
+                    android:id="@+id/to_date"
+                    android:layout_width="@dimen/zero_dp"
+                    android:textColor="@color/colordarkgray"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight=".6"
+                    android:background="@null"
+                    android:clickable="true"
+                    android:focusable="false"
+                    android:hint="Date" />
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="@dimen/margin_20"
+                android:background="@drawable/archive_edittext_style"
+                android:orientation="horizontal"
+                android:padding="@dimen/margin_10"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/text_analyst_arch"
+                    android:layout_width="@dimen/zero_dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight=".4"
+                    android:padding="@dimen/margin_10"
+                    android:text="Stock"
+                    android:textColor="@color/red" />
+
+
+                <Spinner
+                    android:id="@+id/spinnerstock"
+                    android:layout_width="@dimen/zero_dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".6">
+
+
+                </Spinner>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="@dimen/margin_20"
+                android:background="@drawable/archive_edittext_style"
+                android:orientation="horizontal"
+                android:padding="@dimen/margin_10"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/text_stock_arch"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight=".4"
+                    android:paddingLeft="10dp"
+                    android:text="Analyst"
+                    android:textColor="@color/red"
+
+                    />
+
+
+                <Spinner
+                    android:id="@+id/spinneranalyst"
+                    android:layout_width="@dimen/zero_dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.6"
+                    >
+
+                </Spinner>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="@dimen/margin_20"
+                android:background="@drawable/archive_edittext_style"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:padding="10dp"
+
+                >
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight=".4"
+                    android:text="View"
+                    android:padding="@dimen/margin_10"
+
+                    android:textColor="@color/red"
+
+                    />
+
+                <Spinner
+                    android:id="@+id/spinnerview"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_weight=".6"
+                    android:textAlignment="center">
+
+                </Spinner>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button_send"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/editText_message"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/margin_50"
+                android:background="@drawable/archive_filter_button"
+                android:text="Submit"
+                android:textColor="@color/colorwhite" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

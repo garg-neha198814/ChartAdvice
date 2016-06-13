@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">ChartAdvise</string>
+    <string name="invalid_user">Invalid User</string>
+    <string name="api_error">Server not Responding Please Check Internet connection </string>
+    <string name="internet_connection_error">Network Connection Error</string>
+    <string name="title_activity_navigation_">Navigation_Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="Traders_center">Traders Central</string>
+    <string name="NO_data">No Data Avilable for Selected date</string>
+    <string name="token_String">a152e84173914146e4bc4f391sd0f686ebc4f31</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Datanotavilable">Data is not avilable</string>
+    <string name="checkuserpassword">Check Your Username and password</string>
+    <string name="Internet_problem">Internet Connection Problem</string>
+
+    <string-array name="option">
+        <item>Camera</item>
+        <item>Gallery</item>
+    </string-array>
+
+    <!-- title and content -->
+    <string name="Querysend">Message Sent Sucessfully</string>
+    <string name="aboutUsTitle">About Us</string>
+
+    <string name="niftyEdgeTitle">Nifty Edge</string>
+    <string name="niftyEdgeContent">NIFTY EDGE is a newsletter written by Dr C.K.Narayan, India’s foremost technical analyst and Managing Director of Growth Avenues.</string>
+    <string name="niftyEdgeContentsecond">Nifty Edge seeks to inform as well as educate its readers about the various aspects of the financial markets, touching upon Equities, Futures , Options, Commodities as well as Currencies. Written in his inimitable style, Nifty Edge is a product unlike many others that you may see in the market place. The sweep of the analysis as well as its depth is not something that you will find easily in the market place. That alone makes this newsletter worth several times its subscription value.</string>
+
+    <string name="futureGainTitle">Future Gain</string>
+    <string name="futureGainContent">Future Gains is a Individual Stock Futures trading product designed to capture near term swings in the stocks to make 2- 5% gains, on either side. The trading strategies mostly confined top 100 highly traded, institutional counters.Advisory Details</string>
+    <string name="futureGainContentsecond">♦ Calls will be generated as intraday and positional play. Trading position (no of lots) is left to the discretion of users.</string>
+
+    <string name="optionGainTitle">Option Gain</string>
+    <string name="optionGainContent">Option Gains is designed to trade in highly volatile derivatives market with very low leverage and high profitability. It covers various option strategies to deal with trended and non-trended markets. Calls will be given in stocks having good option liquidity to avoid unnecessary bid-ask spreads.</string>
+    <string name="optionGainContentsecond">Advisory Details
+
+♦ Calls will be generated as positional play. Trading position (no of lots) is left to the discretion of users.
+♦ Trades shall be active for 0-2 weeks depending on market condition.</string>
+
+    <string name="equityGainTitle">Equity Gain</string>
+    <string name="equityGainContent">Equity Gains is designed for traders who are willing to trade in the stock market with view of 1-2 weeks..</string>
+    <string name="equityGainContensecondt">Advisory Details
+
+♦ Calls will be generated every week as intraday as well positional play.
+
+♦ Short trading opportunities in the Equity (Cash) Calls will be generated to profit from intraday trends.
+
+♦ Trade will be open for 1-2 week depending on market condition.</string>
+    <string name="traderCenterTitle">Trader Center</string>
+    <string name="traderCenterContent"> Have you wondered how to improve your trading results but didn’t quite find the solution to it? How often have you wondered why some stocks moved the way they did and why you could not be on board for that move? And how many more often that you have bought or sold at the wrong prices for the day or week and exited out of fear?</string>
+    <string name="traderCenterContentsecond">Chart Advise brings you the solution to your problems. Not only will you now be able to trade with confidence but you will also do so with an increased level of knowledge and purpose! Chart Advise brings you a unique concept in market advisory.</string>
+</resources>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:orientation="vertical"
+        android:weightSum="5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero_dp"
+            android:layout_weight="1"
+            android:background="@drawable/a"
+            android:orientation="horizontal"
+            android:weightSum="6">
+
+            <ImageView
+                android:layout_width="@dimen/zero_dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="2"
+                android:src="@drawable/nifty_edge"
+
+                />
+
+            <TextView
+                android:layout_width="@dimen/zero_dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:text="NIFTY EDGE"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/toolbar"
+            android:orientation="vertical"
+            android:weightSum="5">
+
+            <LinearLayout
+                android:id="@+id/nifty"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zero_dp"
+                android:layout_weight="1"
+                android:background="@drawable/a"
+                android:orientation="horizontal"
+                android:weightSum="6">
+
+                <ImageView
+                    android:layout_width="@dimen/zero_dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="2"
+                    android:src="@drawable/nifty_edge" />
+
+                <TextView
+                    android:layout_width="@dimen/zero_dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="4"
+                    android:text="NIFTY EDGE"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/future"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zero_dp"
+                android:layout_weight="1"
+                android:background="@drawable/b"
+                android:orientation="horizontal"
+                android:weightSum="6">
+
+                <ImageView
+                    android:layout_width="@dimen/zero_dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="2"
+                    android:src="@drawable/future_gain" />
+
+                <TextView
+                    android:layout_width="@dimen/zero_dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="4"
+                    android:text="FUTURE GAINS"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/option"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zero_dp"
+                android:layout_weight="1"
+                android:background="@drawable/c"
+                android:orientation="horizontal"
+                android:weightSum="6">
+
+                <ImageView
+                    android:layout_width="@dimen/zero_dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="2"
+                    android:src="@drawable/option_gain" />
+
+                <TextView
+                    android:layout_width="@dimen/zero_dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="4"
+                    android:text="OPTION GAINS"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/equlity"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zero_dp"
+                android:layout_weight="1"
+                android:background="@drawable/d"
+                android:orientation="horizontal"
+                android:weightSum="6">
+
+                <ImageView
+                    android:layout_width="@dimen/zero_dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="2"
+                    android:src="@drawable/equity_gain" />
+
+                <TextView
+                    android:layout_width="@dimen/zero_dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="4"
+                    android:text="EQUITY GAINS"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/trader"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zero_dp"
+                android:layout_weight="1"
+                android:background="@drawable/a"
+                android:orientation="horizontal"
+                android:weightSum="6">
+
+                <ImageView
+                    android:id="@+id/imageView_service"
+                    android:layout_width="@dimen/zero_dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="2"
+
+                    android:src="@drawable/trader_central" />
+
+                <TextView
+                    android:layout_width="@dimen/zero_dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="4"
+                    android:text="TRADERS CENTRAL"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
